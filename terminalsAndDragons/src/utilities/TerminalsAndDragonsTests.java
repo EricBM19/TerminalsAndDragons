@@ -1,7 +1,7 @@
 package utilities;
 
-import Model.Enemy;
-import Model.Player;
+import model.Enemy;
+import model.Player;
 
 import java.io.FileWriter;
 import java.io.IOException;
