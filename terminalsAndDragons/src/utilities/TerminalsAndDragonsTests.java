@@ -56,7 +56,7 @@ public class TerminalsAndDragonsTests {
 
         String file = "characters.txt";
 
-        try (Writer writer = new FileWriter(file)) {
+        try (Writer writer = new FileWriter(file, true)) {
             for (Player player : players) {
                 writer.write(player.getName() + ", " + player.getAge() + "\n");
             }

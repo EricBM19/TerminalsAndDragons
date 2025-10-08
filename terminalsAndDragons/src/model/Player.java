@@ -24,6 +24,10 @@ public class Player {
         this.age = age;
     }
 
+    public static void hit() {
+        System.out.println("Player hits!");
+    }
+
     @Override
     public String toString() {
         return "Player{" +

@@ -1,3 +1,4 @@
+import controller.MainDispatcher;
 import utilities.TerminalsAndDragonsTests;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -8,10 +9,12 @@ public class Main {
         System.out.println("Welcome to Terminals and Dragons!");
         System.out.println("-------------------------------");
 
-        TerminalsAndDragonsTests.testPlayer();
-        TerminalsAndDragonsTests.testEnemy();
-        TerminalsAndDragonsTests.listPlayers();
-        TerminalsAndDragonsTests.writePlayer();
-        TerminalsAndDragonsTests.readPlayers();
+        MainDispatcher.runner();
+
+//        TerminalsAndDragonsTests.testPlayer();
+//        TerminalsAndDragonsTests.testEnemy();
+//        TerminalsAndDragonsTests.listPlayers();
+//        TerminalsAndDragonsTests.writePlayer();
+//        TerminalsAndDragonsTests.readPlayers();
     }
 }

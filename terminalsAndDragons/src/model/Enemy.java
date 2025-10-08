@@ -24,6 +24,10 @@ public class Enemy {
         this.level = level;
     }
 
+    public static void hit() {
+        System.out.println("Enemy hits!");
+    }
+
     @Override
     public String toString() {
         return "Enemy{" +
